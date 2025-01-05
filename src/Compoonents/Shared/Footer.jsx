@@ -3,11 +3,11 @@ import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
 
 const Footer = () => {
     return (
-        <footer className=" pb-10 bg-black text-white" id="footerSection">
+        <footer className="border-t border-t-gray-600 py-10 bg-black text-white" id="footerSection">
   
-        <hr className="border-t-2  pb-10" />
+    
 
-<div className="flex px-2 flex-col md:flex-row gap-10 justify-between items-center mx-auto max-w-screen-xl py-5 text-center md:text-left">
+<div className="flex px-3 lg:px-0 flex-col md:flex-row gap-10 justify-between items-center mx-auto max-w-screen-xl py-5 text-center md:text-left">
 <div>
     
     <h2 className=" text-2xl font-semibold italic">Follow me on :</h2>

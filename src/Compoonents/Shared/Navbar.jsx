@@ -1,6 +1,5 @@
 import { FaDownload } from "react-icons/fa";
 
-
 const Navbar = () => {
 
     const handleDownload = () => {
@@ -16,15 +15,15 @@ const Navbar = () => {
 
     const links = 
     <>
-     <li><a>About Me</a></li>
-     <li><a>Proficiency</a></li>
-     <li><a>Projects</a></li>
-     <li><a>Contacts</a></li>
+     <li><a href="/#about">About Me</a></li>
+     <li><a href="/#skills">Skills</a></li>
+     <li><a href="/#projects">Projects</a></li>
+     <li><a href="/#contacts">Contacts</a></li>
     </>
 
     return (
-        <div>
-            <div className="navbar items-center bg-base-100 max-w-screen-xl mx-auto py-5">
+        <div className="fixed w-screen bg-base-100 z-50">
+            <div className="navbar items-center  max-w-screen-xl mx-auto py-5 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn pl-0 btn-ghost lg:hidden">
@@ -47,7 +46,7 @@ const Navbar = () => {
       {links}
       </ul>
     </div>
-    <a className="font-black italic text-lg md:text-3xl font-serif text-white rounded-full text-center md:text-left">Fahima Akter</a>
+    <a className="font-black italic text-lg md:text-3xl font-serif text-white rounded-full text-center md:text-left"> Fahima Akter</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-gray-400 font-medium">
@@ -57,7 +56,7 @@ const Navbar = () => {
   <div className="navbar-end">
     <button 
     onClick={handleDownload}
-    className="btn bg-orange-400 text-black hover:bg-orange-500">Resume <FaDownload /></button>
+    className="btn bg-orange-400 text-black hover:bg-orange-500 duration-300">Resume <FaDownload /></button>
   </div>
 </div>
         </div>
