@@ -19,7 +19,7 @@ const Footer = () => {
                     src="https://i.ibb.co/RyZwyXF/github-2.png" alt=""/></a></div>
               <div
                 className=" rounded-full shadow-white shadow flex justify-center items-center hover:ring-orange-400 hover:ring-2 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
-                <a target="_blank" href="https://twitter.com/Fahima_Akter813"><img className="w-[40px]"
+                <a target="_blank" href="https://x.com/Fahima_Akter813"><img className="w-[40px]"
                     src="https://i.ibb.co/Qn7CwvM/twitter.png" alt=""/></a></div>
               <div
                 className="bg-white rounded-full shadow-white shadow flex justify-center items-center hover:ring-orange-400 hover:ring-2 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">

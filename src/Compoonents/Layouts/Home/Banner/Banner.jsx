@@ -32,7 +32,7 @@ const Banner = () => {
                 src="https://i.ibb.co/RyZwyXF/github-2.png" alt=""/></a></div>
           <div
             className="border rounded-full  flex justify-center items-center  hover:ring-orange-400 hover:ring-1 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
-            <a target="_blank" href="https://twitter.com/Fahima_Akter813"><img className="w-[40px]"
+            <a target="_blank" href="https://x.com/Fahima_Akter813"><img className="w-[40px]"
                 src="https://i.ibb.co/Qn7CwvM/twitter.png" alt=""/></a></div>
           <div
             className="border bg-white rounded-full  flex justify-center items-center hover:ring-orange-400 hover:ring-1 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
@@ -58,7 +58,7 @@ const Banner = () => {
           knowledge to meet specific demands, fostering continual growth and self-improvement. My commitment extends to
           learning new skills aligned with evolving requirements.</p>
         <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-5 mt-6">
-          <a href="#projectSection">
+          <a href="/#projects">
             <button
               className="btn w-[180px] bg-orange-400 text-black hover:bg-orange-500 duration-300">View Projects<MdKeyboardDoubleArrowRight className="text-2xl" /></button></a>
           <a target="_blank" href="https://drive.google.com/file/d/109dMMZVzKpo9VxUkZEau_i6DRlQPK-x4/view?usp=sharing">
