@@ -1,3 +1,4 @@
+import { FaGithub } from "react-icons/fa6";
 import { RiNodejsLine, RiReactjsFill } from "react-icons/ri";
 import { SiExpress, SiMongodb, SiReactrouter } from "react-icons/si";
 
@@ -9,6 +10,9 @@ const Skills = () => {
             <div className='text-center space-y-3 pb-16'>
     {/* <h4 className='text-orange-300 font-medium italic'>---Skills---</h4> */}
     <h1 className='font-bold text-white text-4xl font-serif'>My Expertise</h1>
+    <p className="text-center max-w-3xl mx-auto text-gray-500 font-medium">
+    Discover my core expertise in web development, including modern frameworks, backend technologies, and design tools, showcasing versatile skill sets.
+    </p>
 </div>
 
 <h4 className=' font-medium italic pb-7 text-white text-center'>---Front End---</h4>
@@ -104,6 +108,21 @@ const Skills = () => {
           className="col hover:bg-zinc-900 flex justify-center px-2 gap-1 md:gap-4 items-center py-2 border border-orange-300 rounded-sm hover:text-white  hover:ring-1 hover:ring-white duration-500">
           <p className="font-medium text-lg">Wordpress</p>
           <div><img className="w-[30px]" src="https://i.ibb.co/ydJ5Zkb/wordpress.png" alt="" /></div>
+        </div>
+        <div
+          className="col hover:bg-zinc-900 flex justify-center px-2 gap-1 md:gap-4 items-center py-2 border border-orange-300 rounded-sm hover:text-white  hover:ring-1 hover:ring-white duration-500">
+          <p className="font-medium text-lg">Github</p> 
+          <div><FaGithub className="text-3xl text-white" /></div>
+        </div>
+        <div
+          className="col hover:bg-zinc-900 flex justify-center px-2 gap-1 md:gap-4 items-center py-2 border border-orange-300 rounded-sm hover:text-white  hover:ring-1 hover:ring-white duration-500">
+          <p className="font-medium text-lg">Canva</p>
+          <div><img className="w-[30px]" src="https://oregoncoast.edu/wp-content/uploads/2024/02/canva-logo.png" alt="" /></div>
+        </div>
+        <div
+          className="col hover:bg-zinc-900 flex justify-center px-2 gap-1 md:gap-4 items-center py-2 border border-orange-300 rounded-sm hover:text-white  hover:ring-1 hover:ring-white duration-500">
+          <p className="font-medium text-lg">Pixso</p>
+          <div><img className="w-[30px]" src="https://pbs.twimg.com/media/FhkZv7KVQAAAINF.png" alt="" /></div>
         </div>
       </div>
     </div>

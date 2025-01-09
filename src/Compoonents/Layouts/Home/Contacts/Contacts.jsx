@@ -52,7 +52,6 @@ const Contacts = () => {
 
     }
 
-    // service_cpq7311
 
     return (
    <div>
@@ -60,6 +59,9 @@ const Contacts = () => {
 <div className='text-center space-y-3 pb-16'>
     <h4 className='text-orange-300 font-medium italic'>---Contacts---</h4>
     <h1 className='font-bold text-white text-4xl font-serif'>Let's get connected</h1>
+    <p className="text-center max-w-3xl mx-auto text-gray-500 font-medium">
+    Feel free to connect with me! I'm always open to collaborations, discussions, and exploring exciting opportunities together
+</p>
 </div>
 
 <div className="grid md:grid-cols-2 gap-10 items-center ">

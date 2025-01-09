@@ -27,7 +27,7 @@
       "clientSideGithub": "https://github.com/Fahima-anny/smart-pick-client",
       "serverSideGithub": "https://github.com/Fahima-anny/smart-pick-server",
       "liveLink": "https://smartpick-01.web.app/",
-      "details": "This is a fully dynamic website .All data of this website are handled with MongoDB .This website is authenticated with firebase authentication system . and its secured with json web token (JWT). So you can see only your data. if you try to break rules you will be logged out .This website has admin control like an admin can add new query in thw website without coding . Also can update any query info or delete an existing query from the website .Some routes are private for logged in user. So you cannot visit those routes without logging in.You can have a look of recommendations others has made, for the product query you have made .You can make recommendations on others query . view all recommends you have made and also can delete them if you want" ,
+      "details": "This is a fully dynamic website .All data of this website are handled with MongoDB .This website is authenticated with firebase authentication system . and its secured with json web token (JWT). So you can see only your data. if you try to break rules you will be logged out .This website has admin control like an admin can add new query in the website without coding . Also can update any query info or delete an existing query from the website .Some routes are private for logged in user. So you cannot visit those routes without logging in.You can have a look of recommendations others has made, for the product query you have made .You can make recommendations on others query . view all recommends you have made and also can delete them if you want" ,
       "technologiesUsed": ["React", "Tailwind CSS", "Node.js", "DaisyUI", "Firebase", "React-router", "Animate.CSS", "Express","mongoDB", "JWT", "Swiper"],
       "willImprove": [
         "Choose by Category",
@@ -43,9 +43,9 @@
       "id": 3,
       "projectName": "Bright Career",
       "projectImage": "https://i.ibb.co.com/726C5fM/screencapture-bright-career-d5783-web-app-2025-01-05-10-46-01.png",
-      "clientSideGithub": "https://github.com/Fahima-anny/bright-career-client",
+      "clientSideGithub": "https://github.com/Fahima-anny/bright-career",
       "serverSideGithub": "" ,
-      "liveLink": "https://bright-career-d5783.web.app/#slide1",
+      "liveLink": "https://bright-career-d5783.web.app",
       "details": "A charity website helping communities affected by floods and other natural disasters.",
       "technologiesUsed": ["React", "Tailwind CSS", "Node.js", "DaisyUI", "Firebase", "React-router", "Animate.CSS"],
       "willImprove": [
