@@ -52,7 +52,7 @@ const Banner = () => {
 
                 <div className="col flex flex-col justify-center md:justify-start items-center md:items-start">
         <h1 className="text-3xl md:text-5xl font-bold mt-16 mb-3 font-serif text-white ">FAHIMA AKTER</h1>
-        <h3 className="font-semibold text-xl text-orange-400 mb-3 ">Front-end Developer</h3>
+        <h3 className="font-semibold text-xl text-orange-300 mb-3 italic">--Frontend Developer--</h3>
         <p className="text-md font-semibold text-gray-500 para">
           Dedicated and industrious, I ardently pursue excellence. With an adaptive mindset, I efficiently absorb
           knowledge to meet specific demands, fostering continual growth and self-improvement. My commitment extends to

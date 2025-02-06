@@ -20,7 +20,9 @@ useEffect(() => {
 
 console.log(myProject);
 
-const { projectName, liveLink, willImprove, challenges, clientSideGithub, serverSideGithub, details, technologiesUsed} = myProject ;
+const { projectName, liveLink, willImprove, challenges, clientSideGithub, 
+     // serverSideGithub,
+      details, technologiesUsed} = myProject ;
 
     return (
         <div>
@@ -48,7 +50,7 @@ const { projectName, liveLink, willImprove, challenges, clientSideGithub, server
                <span className="col-span-2 text-blue-400"><Link target="_blank" to={clientSideGithub}>{clientSideGithub}</Link></span>
                </h3>
 
-          <h3 className="lg:grid grid-cols-3 gap-2 pb-3 pt-1 font-semibold">
+          {/* <h3 className="lg:grid grid-cols-3 gap-2 pb-3 pt-1 font-semibold">
                <span className="col-span-1 text-gray-500">Server Side Code : </span> 
                {
                 serverSideGithub === "" 
@@ -56,7 +58,7 @@ const { projectName, liveLink, willImprove, challenges, clientSideGithub, server
                 : <span className="col-span-2  text-blue-400"><Link target="_blank" to={serverSideGithub}>{serverSideGithub}</Link></span>  
 
                 }
-            </h3>
+            </h3> */}
           <h3 className="lg:grid grid-cols-3 gap-2 pb-3 pt-1 font-semibold">
                <span className="col-span-1 text-gray-500">Technologies used : </span> 
                <span className="col-span-2  text-gray-400">{

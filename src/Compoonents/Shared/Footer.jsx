@@ -1,4 +1,4 @@
-import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
+import { BsCodeSquare, BsFillFileEarmarkCodeFill } from "react-icons/bs";
 
 
 const Footer = () => {
@@ -10,9 +10,9 @@ const Footer = () => {
 <div className="flex px-3 lg:px-0 flex-col md:flex-row gap-10 justify-between items-center mx-auto max-w-screen-xl py-5 text-center md:text-left">
 <div>
     
-    <h2 className=" text-2xl font-semibold italic">Follow me on :</h2>
+    <h2 className=" text-xl font-semibold italic">Follow me on :</h2>
     
-    <div className="flex gap-4 justify-center pt-2">
+    <div className="flex gap-4 justify-center pt-4">
               <div
                 className=" rounded-full shadow-white shadow flex justify-center items-center hover:ring-orange-400 hover:ring-2 ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                 <a target="_blank" href="https://github.com/Fahima-anny"><img className="w-[40px]"
@@ -34,7 +34,10 @@ const Footer = () => {
     </div>
     
     <div>
-    <h2 className="flex text-2xl font-semibold items-center justify-center md:justify-start gap-1"><BsFillFileEarmarkCodeFill className="text-lg"/>Passionate about Coding</h2>
+    <h2 className="flex text-xl font-medium items-center justify-center md:justify-start gap-1">
+      {/* <BsCodeSquare className="text-xl text-orange-400"/> */}
+      Passionate about Coding
+      </h2>
     <p className="text-center font-serif text-xl font-medium text-gray-300 pt-2">&#169;copyright <span className="text-orange-300 italic font-semibold">Fahima Akter</span> - All rights reserved</p>
     </div>
 </div>

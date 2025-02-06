@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import emailjs from '@emailjs/browser';
 import { FaLocationDot } from 'react-icons/fa6';
-import { IoIosMailOpen } from 'react-icons/io';
+import { IoMdMail } from 'react-icons/io';
 import { RiWhatsappFill } from 'react-icons/ri';
 import Swal from 'sweetalert2';
 
@@ -87,7 +87,7 @@ const Contacts = () => {
                 <RiWhatsappFill  className='text-black text-2xl' />
             </div>
             <div>
-                <h3 className='font-bold text-white text-2xl pb-2'>Whats App</h3>
+                <h3 className='font-bold text-white text-2xl pb-2'>Phone/Whats App</h3>
                 <p className='text-gray-400 font-medium'>+88 016016 08603</p>
             </div>
         </div>
@@ -97,10 +97,10 @@ const Contacts = () => {
         {/* <h2 className=" text-2xl font-bold text-center text-white pb-5 ">Write to me</h2> */}
         <div className='flex gap-3 md:gap-6 '>
             <div className='rounded-full bg-orange-400 flex justify-center items-center h-[70px] w-[70px]'>
-                <IoIosMailOpen className='text-black text-2xl' />
+                <IoMdMail className='text-black text-2xl' />
             </div>
             <div>
-                <h3 className='font-bold text-white text-2xl pb-2'>Email</h3>
+                <h3 className='font-bold text-white text-2xl pb-2'>Email Address</h3>
                 <p className='text-gray-400 font-medium'>fahima.info03@gmail.com</p>
             </div>
         </div>
