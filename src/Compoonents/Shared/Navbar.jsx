@@ -3,13 +3,13 @@ import { FaDownload } from "react-icons/fa";
 const Navbar = () => {
 
     const handleDownload = () => {
-        const resumePath = '/Resume.pdf';
+        const resumePath = '/Fahima Akter - CV.pdf';
     
         window.open(resumePath, '_blank');
 
         const link = document.createElement('a');
         link.href = resumePath;
-        link.download = 'Resume.pdf'; 
+        link.download = 'Fahima Akter - CV.pdf'; 
         link.click(); 
       };
 
