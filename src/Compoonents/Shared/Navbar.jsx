@@ -2,16 +2,16 @@ import { FaDownload } from "react-icons/fa";
 
 const Navbar = () => {
 
-    const handleDownload = () => {
-        const resumePath = '/Fahima Akter - CV.pdf';
+  const handleDownload = () => {
+    const resumePath = '/Fahima Akter - Resume.pdf';
     
-        window.open(resumePath, '_blank');
+    window.open(resumePath, '_blank');
 
-        const link = document.createElement('a');
-        link.href = resumePath;
-        link.download = 'Fahima Akter - CV.pdf'; 
-        link.click(); 
-      };
+    const link = document.createElement('a');
+    link.href = resumePath;
+    link.download = 'Fahima Akter - Resume.pdf'; 
+    link.click(); 
+    };
 
     const links = 
     <>
@@ -57,7 +57,7 @@ const Navbar = () => {
   <div className="navbar-end">
     <button 
     onClick={handleDownload}
-    className="btn bg-orange-400 text-black hover:bg-orange-500 duration-300">Resume <FaDownload /></button>
+    className="btn bg-orange-400 text-black text-lg hover:bg-orange-500 duration-300">Resume <FaDownload /></button>
   </div>
 </div>
         </div>

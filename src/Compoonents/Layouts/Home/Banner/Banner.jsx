@@ -5,13 +5,13 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 const Banner = () => {
 
     const handleDownloadResume = () => {
-      const resumePath = '/Fahima Akter - CV.pdf';
+      const resumePath = '/Fahima Akter - Resume.pdf';
     
       window.open(resumePath, '_blank');
 
       const link = document.createElement('a');
       link.href = resumePath;
-      link.download = 'Fahima Akter - CV.pdf'; 
+      link.download = 'Fahima Akter - Resume.pdf'; 
       link.click(); 
       };
 
@@ -60,11 +60,11 @@ const Banner = () => {
         <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-5 mt-6">
           <a href="/#projects">
             <button
-              className="btn w-[180px] bg-orange-400 text-black hover:bg-orange-500 duration-300">View Projects<MdKeyboardDoubleArrowRight className="text-2xl" /></button></a>
+              className="btn w-[180px] bg-orange-400 text-black hover:bg-orange-500 duration-300 text-lg">View Projects<MdKeyboardDoubleArrowRight className="text-2xl" /></button></a>
 
             <button
                 onClick={handleDownloadResume}
-              className="btn w-[180px] bg-orange-400 text-black hover:bg-orange-500 duration-300">Resume <FaDownload /></button>
+              className="btn w-[180px] text-lg bg-orange-400 text-black hover:bg-orange-500 duration-300">Resume <FaDownload /></button>
         </div>
 
 
