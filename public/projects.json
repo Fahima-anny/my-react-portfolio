@@ -2,11 +2,11 @@
   {
     "id": 1,
     "projectName": "Work Stream",
-    "projectImage": "https://i.ibb.co.com/726C5fM/screencapture-bright-career-d5783-web-app-2025-01-05-10-46-01.png",
+    "projectImage": "https://i.ibb.co.com/DHp99c9r/Work-Stream.png",
     "clientSideGithub": "https://github.com/Fahima-anny/work-stream-client",
     "serverSideGithub": "https://github.com/Fahima-anny/work-stream-server" ,
     "liveLink": "https://workstream-12.web.app/",
-    "details": "Work Stream is an innovative employee management web application designed to streamline employee workflow updates, HR management tasks, and admin-level oversight. It features a user-friendly interface, secure role-based authentication, and dynamic dashboards for effective monitoring and collaboration.",
+    "details": "Work Stream is an Employee Management System, designed to streamline employee workflow updates, HR management tasks, and admin-level oversight. It features a user-friendly interface, secure role-based authentication, and dynamic dashboards for effective monitoring and collaboration.",
     "technologiesUsed": ["React", "Node.js", "Express.js", "Firebase", "Stripe (Payment Gateway)", "React Query", "Email.js", "React-router", "mongoDB", "JWT", "Tailwind CSS",  "DaisyUI", "Animate.CSS"],
     "willImprove": [
 "Dashboard Default Page",
@@ -22,11 +22,11 @@
     {
       "id": 2,
       "projectName": "Smart Pick",
-      "projectImage": "https://i.ibb.co.com/BztB25S/screencapture-smartpick-01-web-app-2025-01-05-10-41-01.png",
+      "projectImage": "https://i.ibb.co.com/HT3h9ty2/Smart-Pick-Home-03-29-2025-07-09-AM.png",
       "clientSideGithub": "https://github.com/Fahima-anny/smart-pick-client",
       "serverSideGithub": "https://github.com/Fahima-anny/smart-pick-server",
       "liveLink": "https://smartpick-01.web.app/",
-      "details": "This is a fully dynamic website .All data of this website are handled with MongoDB .This website is authenticated with firebase authentication system . and its secured with json web token (JWT). So you can see only your data. if you try to break rules you will be logged out .This website has admin control like an admin can add new query in the website without coding . Also can update any query info or delete an existing query from the website .Some routes are private for logged in user. So you cannot visit those routes without logging in.You can have a look of recommendations others has made, for the product query you have made .You can make recommendations on others query . view all recommends you have made and also can delete them if you want" ,
+      "details": "This is a Product Recommendation Web Application. Here you can view, create, delete recommendations, and comment on product queries and reviews for better purchase. All data of this website are handled with MongoDB .This website is authenticated with firebase authentication system . and its secured with json web token (JWT). So you can see only your data. if you try to break rules you will be logged out .This website has admin control like an admin can add new query in the website without coding . Also can update any query info or delete an existing query from the website .Some routes are private for logged in user. So you cannot visit those routes without logging in.You can have a look of recommendations others has made, for the product query you have made .You can make recommendations on others query . view all recommends you have made and also can delete them if you want" ,
       "technologiesUsed": ["React", "Tailwind CSS", "Node.js", "DaisyUI", "Firebase", "React-router", "Animate.CSS", "Express","mongoDB", "JWT", "Swiper"],
       "willImprove": [
         "Sorting",
@@ -42,17 +42,19 @@
     {
       "id": 3,
       "projectName": "Sports Mart",
-      "projectImage": "https://i.ibb.co.com/dpqMN6r/screencapture-sports-mart-b10a10-web-app-2025-01-05-10-41-39.png",
+      "projectImage": "https://i.ibb.co.com/JR3RKSFz/Sports-Mart.png",
       "clientSideGithub": "https://github.com/Fahima-anny/sports-mart-client",
       "serverSideGithub": "https://github.com/Fahima-anny/sports-mart-server",
       "liveLink": "https://sports-mart-b10a10.web.app/",
-      "details": "This is a fully dynamic website .This website has admin control like an admin can add new products in thw website without coding . Also can update any product info or delete an existing product from the website .Some routes are private for logged in user. So you cannot visit those routes without logging in.You can have a look of details of any product before you buy it. you can also check the customers review.As an admin you can see what products you have added to this website and modify them.",
+      "details": "This is a Sports Equipment Online Shop, fully dynamic website . This website has admin control like an admin can add new products in the website without coding . Also can update any product info or delete an existing product from the website .Some routes are private for logged in user. So you cannot visit those routes without logging in.You can have a look of details of any product before you buy it. you can also check the customers review.As an admin you can see what products you have added to this website and modify them.",
       "technologiesUsed": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Firebase", "React-router", "Animate.CSS", "Swiper","DaisyUI", "Animate.CSS"],
       "willImprove": [
+        "Payment Gateway",
+        "Role based Authorization",
+        "Dashboard",
         "JWT authentication",
         "Choose by Category",
-        "Add to cart System",
-        "Place Order"
+        "Add to cart System"
       ],
       "challenges" : [
         "Theme implementation",
