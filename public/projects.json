@@ -10,7 +10,7 @@
     "technologiesUsed": ["React", "Node.js", "Express.js", "Firebase", "Stripe (Payment Gateway)", "React Query", "Email.js", "React-router", "mongoDB", "JWT", "Tailwind CSS",  "DaisyUI", "Animate.CSS"],
     "willImprove": [
 "Dashboard Default Page",
-"Want to add Mobile Banking System"
+"Mobile Banking System (Bkash)"
     ],
     "challenges" : [
       "Payment Gateway",
