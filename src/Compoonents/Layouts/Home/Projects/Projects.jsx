@@ -24,7 +24,7 @@ useEffect(() => {
     <p className="text-center max-w-3xl mx-auto text-gray-500 font-medium">Explore my featured projects showcasing innovative solutions, modern designs, and cutting-edge technologies, reflecting my passion for web development</p>
 </div>
 
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
            {
             projects?.map( project => <ProjectCard
                  key={project.id}
